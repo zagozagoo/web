@@ -1,0 +1,4 @@
+Crie uma tabela do Brasileirão 2021 com o 6 primeiros e os 6 últimos do campeonato.
+Deve conter pelo menos o nome do time, escudo, classificação e pontuação.
+A imagem do escudo deve direcionar à página do time no Globo esporte.
+Pode conter o melhor jogador de cada time, mascote, entre outras características.

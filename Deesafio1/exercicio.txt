@@ -1,0 +1,5 @@
+Crie uma página de um cinema, destacando o nome do cinema como título da página.
+Adicione imagens das capas de filmes que estão em estreia.
+Crie uma lista dos Shoppings na qual o cinema possui sede.
+Monte uma tabela que mostre a data de lançamento e o gênero de cada filme.
+Transforme as imagens em links para trailer dos filmes correspondentes.

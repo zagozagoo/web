@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*deixa tudo em um tamanho padrao*/
+}
+
+html {
+    background: rgb(145,200,240);
+    background: radial-gradient(circle, rgba(145,200,240,1) 0%, rgba(78,92,92,1) 100%);
+    height: 100vh; /* vh pega a pagina toda, 100% da tela*/
+}
+
+.container img {
+    width: 100%;
+    height: 600px;
+}
+
+.container {
+    width: 20%;
+    margin: 5% 10px 0 10px; /* margem de todos os lados para criar espaçamento entre as imagens (os números inmdicam o tamanho de margem das laterais) */
+}
+
+.img-row {
+    display: flex;
+    justify-content: center; /* deixar as imagens no meio  */
+    align-items: center;
+} 
+
+.descricao {
+    font-size: 23px;
+    width: 80%; /* eu e maria chuamo ate a descricao chegar no meio da imagem*/
+    margin: 15px auto;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+img {
+    vertical-align: top;
+}
+
+nav {
+    background-color:#374A4B;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+}
+
+nav img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.titulo {
+    margin-left: 15px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    color: bisque;
+}
+
+.locais {
+    font-size: 23px;
+    margin-top: 28px;
+    color: rgb(14, 61, 76);
+    text-align: center;
+}
+
+.shoppings {
+    font-size: 23px;
+    margin-top: 10px;
+    color: rgb(18, 75, 94);
+    text-align: center;
+}
+
+.container-locals {
+    display: flex;
+    justify-content: space-around
+}
+
+table tr td {
+    padding: 0 1rem;
+    border: solid 1px rgb(42, 131, 161);
+}
+
+table {
+    margin-top: 32px;
+    padding: 5px;
+    border: solid 1px rgb(16, 125, 161);
+}
+
+.tabelacor
+{
+    font-size: 20px;
+    color: rgb(43, 73, 117)
+}
