@@ -1,0 +1,7 @@
+nav {
+    background-color:#a3ecc8;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+}
