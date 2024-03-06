@@ -1,0 +1,5 @@
+CSS:
+	border-radius -> borda arredondada
+
+
+Site: https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
