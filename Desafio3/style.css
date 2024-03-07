@@ -78,6 +78,17 @@ figure {
     height: 40%;
 }
 
+/* summary {
+    margin-bottom: 16px;
+    display: block;
+    cursor: pointer;
+    outline: 0; 
+}
+
+summary::-webkit-details-marker {
+    display: none;
+} */
+
 details {
     display: flex;
     font-family: "Namdhinggo", serif;
@@ -94,7 +105,8 @@ footer {
     font-size: 25px;
     background-color: #e2dfdf;
     margin-top: 16px;
-    padding: 9px;
+    padding: 9
+    px;
 }
 
 #hailey {
@@ -109,3 +121,5 @@ footer {
     width: 300px;
     height: 280px;
 }
+
+
