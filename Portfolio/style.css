@@ -17,6 +17,11 @@ body {
     color: var(--white);
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
     color: #6d9773;
     color: #0c3b2e;
