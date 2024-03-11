@@ -10,11 +10,13 @@
 
 body {
     font-family: "Comfortaa", sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 0 20px;
     background: #f6efe6;
     color: var(--white);
+}
+
+header {
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -44,19 +46,21 @@ article {
   ul {
     list-style: none;
   }
+
+  footer {
+    bottom: 0;
+  }
   
 
   /* MENU
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .nav-menu {
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     max-width: 400px;
     padding-bottom: 20px;
     border-radius: 5px 5px 25px 25px;
-    margin: 0 120px;
+    margin: 300px auto 0;
     background: var(--white);
     box-shadow: rgb(50 50 93 / 10%) 0 30px 60px -12px,
       rgb(0 0 0 / 15%) 0 18px 36px -18px;
