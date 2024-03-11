@@ -14,12 +14,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Comfortaa", sans-serif;
   background: #f6efe6;
   color: var(--white);
+  overflow: hidden;
 }
 
 header {
@@ -63,13 +65,20 @@ section {
 }
 
 aside {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   max-width: 600px;
   /* background: linear-gradient(to bottom, #043d2d, #0c3b2e); */
   background: rgb(109, 151, 115);
   background: radial-gradient(circle, rgba(109, 151, 115, 1) 0%, rgba(12, 59, 46, 1) 100%);
   border-radius: 50%;
   margin-top: 100px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
