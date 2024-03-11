@@ -13,37 +13,83 @@
         <h1>PORTFÓLIO</h1>
     </header>
     <main>
-        <article class="container">
+        <article class="containersobre">
             <section class="section_sobre">
                 <h1>Olá,</h1>
                 <h1>aqui é a Vitória!</h1> <br>
                 <p>Sou uma estudante de 18 anos na área de software, tendo interesses em linguagens como Java e Python,
                     assim como desenvolvimento web e sistemas para banco de dados.</p>
-
             </section>
-            <aside>
-                <h1>Curated skincare ESSENTIALS.</h1>
-                <figure>
+            <aside class="greenaside">
+                <h1>Zago!</h1>
+                <figure class="greenfigure">
                     <img id="zago" src="images/zagofundo.png">
                 </figure>
             </aside>
         </article>
-        <section></section>
-        <section>
-            <div id="interesses">
-                
+        <h2 id="projetos">Aqui estão alguns projetos que realizei nos últimos meses!</h2>
+        <h2>Clique nas imagens para visualizar</h2>
+        <section class="section_projetos">
+            <div class="texto_projetos">
+                <aside>
+                    <figure>
+                        <a 
+                            href="https://replit.com/@vivizago4884/NEWWEATHER">
+                            <img class="projeto_img" id="clouds" src="images/clouds.png">
+                        </a>
+                    </figure>
+                </aside>
+                <div class="texto">
+                    <h3>Clouds</h3>
+                    O projeto consiste em desenvolver um sistema meteorológico utilizando a linguagem de programação C e
+                    integrando uma API em Python. Este sistema é capaz de coletar dados de temperatura, umidade e
+                    pressão dos próximos 5 dias de qualquer cidade escolhida.
+                </div>
+            </div>
+            <div class="texto_projetos">
+                <aside>
+                    <figure>
+                        <a
+                            href="https://www.instagram.com/flamingle_corp/?next=%2F">
+                            <img class="projeto_img" id="flamingle" src="images/flamingle.png">
+                        </a>
+                    </figure>
+                </aside>
+                <div class="texto">
+                    <h3>Flamingle</h3>
+                    O projeto é sobre um aplicativo de organização financeira, permitindo ao usuário ter diversos
+                    cartões salvos, além de efetuar pagamentos usando apenas o Flamingle. Estive principalmente no
+                    design da empresa, organizando nome, redes sociais, cores e escolha de conteúdo divulgado.
+                </div>
             </div>
         </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <section>
-            <div id="contato">
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            <div id="interesses">
+
             </div>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 id="contato">Contato</h2>
+        <section class="wrapper">
+            <form class="form">
+                <div class="pageTitle title">Entre em contato </div>
+                <div class="secondaryTitle title">Quer conversar comigo? Se registre!</div>
+                <input type="text" class="name formEntry" placeholder="Nome" />
+                <input type="text" class="email formEntry" placeholder="Email" />
+                <textarea class="message formEntry" placeholder="Mensagem"></textarea>
+                <button class="submit formEntry" onclick="thanks()">Enviar</button>
+            </form>
+            <script src="app.js"></script>
+            <!-- <p>
+                    Email: vivizago4884@gmail.com <br>
+                    Linkedin: Vitória Zago <br>
+                </p> -->
         </section>
     </main>
     <footer>
-        <div>
-            intsgram
+        <div class="instagram">
+            instagram: @vzzo_
         </div>
         <nav class="nav-menu">
             <input id="menu" type="checkbox">
