@@ -100,7 +100,7 @@ section {
   align-items: start;
   padding-left: 100px;
   padding-right: 100px;
-  height: 80vh;
+  height: 85vh;
 }
 
 .containerprojetos {
@@ -114,9 +114,20 @@ section {
 
 .instagram {
   color:rgba(12, 59, 46, 1);
-  position: relative;
+  /* position: relative;
   bottom: 3vh;
-  left: 860px;
+  left: 860px; */
+
+  width: 100%;
+  display: inline; /* permite flutuar itens, para esquerda ou direita*/
+}
+
+.instagram>span {
+  float: right;
+  margin-right: 15px;
+
+  position: relative;
+  bottom: 30px;
 }
 
 ul {
@@ -155,6 +166,44 @@ ul {
   margin-top: 70px;
 }
 
+.li_interesses {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.texto_interesses {
+  width: 50%;
+  margin-bottom: 120px;
+  padding-right: 70px;
+}
+
+.img_interesses {
+  max-width: 300px;
+
+  height: auto;
+}
+
+.h2_interesses {
+    background-color: #0c3b2e;
+    color: #ffba00;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+}
+
+
+#section_interesses {
+  width: 100vw;
+}
+
 #zago {
   border-radius: 50%;
 }
@@ -163,6 +212,12 @@ ul {
   max-width: 520px;
   max-height: 360px;
 }
+
+#ul_interesses {
+  margin-left: 40px;
+}
+
+
 /* MENU
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .nav-menu {
@@ -417,6 +472,10 @@ nav {
       flex-direction: column;
     }
 
+    .section_projetos {
+      flex-wrap: wrap;
+    }
+
     .container {
       height: unset;
     }
@@ -425,26 +484,73 @@ nav {
       overflow: scroll;
     }
 
-    .instagram {
+    footer {
+      overflow-x: hidden;
+    }
+
+    /* .instagram {
       position: relative;
       bottom: 4vh;
       left: 570px;
-    }
+    } */
 
     .section_sobre {
       width: auto;
     }
 
-    h5 {
-      color: cadetblue;
+    h2 {
+      width: 100vw;
     }
+
+    .texto_interesses {
+      margin-top: 20px;
+      width: auto;
+    }
+
+    .containersobre {
+      height: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    article {
+      font-size: 25px;
+    }
+
+    .greenaside {
+      margin-top: 50px;
+      width: 300px;
+      height: auto;
+    }
+
+    .section_sobre {
+      margin-top: 20px;
+      margin-bottom: 80px;
+    }
+
+    #zago {
+      width: 300px;
+      height: auto;
+      padding-bottom: 2px;
+    }
+    
   }
   
   /* 1024px - 1200px = desktop menores */
-  @media only screen and (max-width: 1024px) {
-    h5 {
-      color: coral;
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+      overflow: scroll;
     }
+
+    .containersobre {
+      height: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .section_sobre {
+      width: auto;
+    }
+
   }
   
   /* 1200 e + = telas maiores, tvs */
