@@ -23,7 +23,7 @@ body {
   font-family: "Comfortaa", sans-serif;
   background: #f6efe6;
   color: var(--white);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -34,7 +34,6 @@ header {
 }
 
 main {
-  /* overflow-x: hidden; */
   position: relative;
   margin-bottom: 100px;
 }
@@ -62,7 +61,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 50px;
 }
 
@@ -479,10 +478,6 @@ nav {
     .container {
       height: unset;
     }
-    
-    body {
-      overflow: scroll;
-    }
 
     footer {
       overflow-x: hidden;
@@ -537,7 +532,7 @@ nav {
   }
   
   /* 1024px - 1200px = desktop menores */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (max-width: 768px)  {
     body {
       overflow: scroll;
     }
@@ -555,7 +550,21 @@ nav {
   
   /* 1200 e + = telas maiores, tvs */
   @media only screen and (max-width: 1200px) {
-    h5 {
-      color: darkorchid;
+    .section_projetos {
+      flex-direction: column;
+    }
+
+    .containersobre {
+      flex-direction: column;
+      height: unset;
+    }
+    
+    .section_sobre {
+      width: 100%;
+    }
+
+    .greenaside {
+      width: 100%;
+      margin-bottom: 200px;
     }
   }
